@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(102, 197, 150);
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+h2#h2s{
+  text-align: center;
+}
+
+div#todo
+{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+input[type="text"]{
+  text-align: center;
+  height: 35px;
+  width: 80%;
+  float: left;
+  border: 3px solid #332d91;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+input[type="button"]{
+  text-align: center;
+  height: 43px;
+  width: 15%;
+  float:right;
+  border: 3px solid #332d91;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+#hr1{
+  border: 1px solid #332d91;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+div#yes{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+#first{
+  float: left;
+  width: 50%
+  
+}
+
+#second{
+  float: right;
+  width: 50%
+}
+
+.vertical {
+  border-left: 2px solid #332d91;
+  height: 200px;
+  position:absolute;
+  left: 50%;
+}
+
+#main{
+  float: left;
+  width: 40%;
+  margin: auto;
+}
+
+#main2{
+  float: right;
+  width: 44%;
+  margin: auto;
+}
+
+li:hover{
+  background-color: #45a049;
+  border-radius: 4px;
+}
+
+li{
+  display: block;
+  font-size: 25px;
+}
